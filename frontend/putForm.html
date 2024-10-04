@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container" style="margin-top: 80px">
+        <!-- Formulario para agregar nuevo paquete -->
+        <h4>Actualizar Paquete</h4>
+        <!-- Completaremos con los input correspondientes -->
+        <form id="update-paquete-form">
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Destino</label>
+                <input type="text" class="form-control" id="destino" name="destino">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Duracion</label>
+                <input type="text" class="form-control" id="duracion" name="duracion">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Precio</label>
+                <input type="number" class="form-control" id="precio" name="precio">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Descripcion</label>
+                <input type="text" class="form-control" id="descripcion" name="descripcion">
+            </div>
+            <button type="button" class="btn btn-primary" onclick="updatePaquete()">Actualizar</button>
+        </form>
+    </div>
+
+    <script src="js/putForm.js"></script>
+</body>
+</html>
